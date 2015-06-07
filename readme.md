@@ -18,5 +18,5 @@ Then call in the code:
 References
 ----------
 
-* [http://ma.tt/scripts/autop/ http://ma.tt/scripts/autop/]
-* [https://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php https://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php]
+* [http://ma.tt/scripts/autop/](http://ma.tt/scripts/autop/)
+* [https://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/formatting.php)
