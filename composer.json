@@ -1,0 +1,15 @@
+{
+    "name": "xmeltrut/autop",
+    "description": "WordPress's excellent wpautop as a standalone library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chris Worfolk",
+            "email": "chris@worfolk.co.uk",
+            "homepage": "http://www.worfolk.co.uk"
+        }
+    ],
+    "autoload": {
+        "files": ["src/Autop.php"]
+    }
+}
