@@ -7,7 +7,7 @@ Install via Composer:
 
     {
         "require": {
-            "xmeltrut/autop": "*"
+            "xmeltrut/autop": "1.0.0"
         }
     }
 
