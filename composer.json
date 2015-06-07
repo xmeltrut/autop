@@ -1,6 +1,6 @@
 {
     "name": "xmeltrut/autop",
-    "description": "WordPress's excellent wpautop as a standalone library",
+    "description": "WordPress' excellent wpautop as a standalone library",
     "type": "library",
     "authors": [
         {
