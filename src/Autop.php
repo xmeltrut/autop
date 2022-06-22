@@ -132,7 +132,7 @@ class Autop
 		// Optionally insert line breaks.
 		if ( $br ) {
 			// Replace newlines that shouldn't be touched with a placeholder.
-			$text = preg_replace_callback( '/<(script|style|svg).*?<\/\\1>/s', '_autop_newline_preservation_helper', $text );
+			$text = preg_replace_callback( '/<(script|style|svg).*?<\/\\1>/s', array (__CLASS__, '_autop_newline_preservation_helper' ), $text );
 	 
 			// Normalize <br>
 			$text = str_replace( array( '<br>', '<br/>' ), '<br />', $text );
@@ -257,5 +257,9 @@ class Autop
 		}
 	 
 		return $regex;
+	}
+
+	public static function _autop_newline_preservation_helper( $matches ) {
+		return str_replace( "\n", '<WPPreserveNewline />', $matches[0] );
 	}
 }
